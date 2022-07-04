@@ -1,13 +1,11 @@
 #!/usr/bin/python3
+""""returns True if the object or false"""
+
+
 def is_kind_of_class(obj, a_class):
-    """ Function that returns True/False if obj is an instance of a_class
+    """Function to check if return true or false"""
 
-    Args:
-        obj: object
-        a_class: class type
-
-    Returns:
-        True if obj is an instance of a_class
-        False, otherwise
-    """
-    return isinstance(obj, a_class)
+    if isinstance(obj, a_class):
+        return True
+    else:
+        return False
